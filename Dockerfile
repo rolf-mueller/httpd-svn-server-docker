@@ -2,7 +2,7 @@
 FROM httpd:2.4
 
 # Image version and build date arguments
-ARG IMAGE_VERSION="1.2"
+ARG IMAGE_VERSION="1.3.1"
 # Pass --build-arg BUILD_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ") at build time to record it accurately
 ARG BUILD_DATE
 
